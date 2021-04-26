@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQueen's Restaurant</title>
+    <link rel="stylesheet" href="./index.css" />
+     <style>
+         /* id selector*/
+        #logo{
+            color: pink;
+            
+        }
+        .menu{
+            background-color: green;
+            text-decoration: aqua;
+          
+            
+           
+        }  
+    </style>
+</head>
+<body>
+    
+    <!--The header section includes the navigatioon bar, unordered lists -->
+    <header style="height: 500px; width:600px;">
+        <nav class="navbar-top">
+            <ul class="menu">
+                <li class="menu item">
+                    <a href="" id="logo">Code Queen</a>
+                    <!--a href="index.html" id="logo">Codequeen</a -->
+                </li>
+                <li class="menu item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="menu item">
+                    <a href="contact.html">Contact</a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img class="banner" src="../images/banner1.jpg" alt="Plate on table" />
+        <div class="feedback-form">
+            <h4 class="form-header">Please leave your feedback below.</h4>
+           <form  id="review-form" method="POST" action="index.html">
+               <div input="input-element">
+                   <label for="full name">Full name:</label>
+                   <input type="text" placeholder="Sheba" id="full name" name="full name" />
+               </div>
+               
+            <br>
+            <div input="input-element">
+                <label for="review">Review</label>
+                <textarea id="review" name="review">
+                </textarea>
+            </div>
+            <br>
+            <input type="submit" value="Submit" />
+           </form>
+
+        </div>
+        <div class="feed">
+            <h3>Restaurant Reviews</h3>
+          <div class="review card">
+            <h5 class="reviewer">Herbert</h5>
+              <div class="card-content">
+                  <p class="review-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Qui culpa debitis numquam veniam voluptate laborum fugit!
+                 Recusandae hic consequatur accusantium.
+            </div>
+            </p>
+            <div class="review">
+            <h5 class="reviewer">Clony</h5>
+            <p class="review-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Qui culpa debitis numquam veniam voluptate laborum fugit!
+                 Recusandae hic consequatur accusantium.
+                </div>
+                </p>
+            <div class="review">
+            <h5 class="reviewer">Willis</h5>
+             <p class="review-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Qui culpa debitis numquam veniam voluptate laborum fugit!
+                Recusandae hic consequatur accusantium.
+             </p>   
+        </div>
+        
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
