@@ -2,26 +2,26 @@ body {
     color: grey;
     width: 90%;
     margin:auto;
-    background-color: rgba(104, 235, 215, 0.341);
+    background-color: rgba(2, 27, 15, 0.884);
 }
 
 img.banner {
     width:100%;
-    height:520px;
+    height:320px;
 }
 
 /* id selector */
 #logo {
-    color: rgb(204, 36, 134);
+    color: rgba(253, 139, 8, 0.678);
     text-decoration: none;
     margin:9px;
     padding:12px;
-  /*  float: left; */
+    float: left;
 }
 
 /* class selector */
 .navbar-top {
-    background-color: rgb(3, 46, 19);
+    background-color: rgb(6, 104, 42);
     margin-top: 0px;
     height:50px;
 }
@@ -40,16 +40,16 @@ img.banner {
     text-decoration: none;
     margin-top:0px;
     margin-bottom: 0px;
-    color:rgb(235, 46, 21);
+    color:rgb(230, 147, 137);
 }
 a:hover {
     /* color:cyan; */
     /* text-transform: uppercase; */
     /* mix of red green and blue */
-    color: #bacf3f;
+    color: #07f126;
 }
 a:active {
-    color: rgb(210, 144, 71);
+    color: rgb(90, 206, 23);
 }
 
 
@@ -150,12 +150,13 @@ label, .form-header {
     
 }
  input[type='submit'] {
-     background: rgb(61, 196, 49);
+     background: rgba(2, 27, 15, 0.884);
      border:none;
      height:40px;
      width:120px;
-     color:#fff;
-     text-align:left;
+     color:rgb(230, 147, 137);
+     text-align:Center;
+     
  }
  
  
