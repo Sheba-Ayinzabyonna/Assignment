@@ -4,35 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex</title>
-     <link rel="stylesheet" href="../css/flex.css">
+    <title>Flex_grid</title>
+     
     <style>
-      .body{
-margin: 0;
-      } 
+      body{
+      margin: 0;
+      padding:0;
+      background-image:linear-gradient(to top, green,chocolate);
+      background-size:cover;
+      background-repeat:no-repeat;
+      height:720px;
+    } 
       .container{
-        display: grid;
-        grid-template-columns: 80% 20%;
+        display:grid;
+        grid-template-columns: 100px 50px 100px;
+        /*grid-template-rows: repeat(auto);*/
+        grid-template-rows: 80px auto 80px;
+        column-gap:10px;
+        row-gap: 15px;
+        
+         /*padding:20px;
+            margin: 0;
+            display: flex;
+           flex-flow: row-reverse wrap; 
+          justify-content: ;
+           align-items: flex-end;
+            align-content: center;*/
       }
+      .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        flex-basis:2px;
+        background-color: black;
+        height: 250;
+      }
+     
+    .flex{
+      background:#fff;
+      border-radius: 30px;
+            height: 200px;
+            width:300px;
+            padding: 13px;
+            margin:9px;
+            order: 3;
+            flex: none, 2, 3;
+
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+    }
+    /*.main{
+        display: flex;
+        /* background-color: rgba(252, 88, 29, 0.904);
+        flex-flow: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    /*.flex{
+        border-radius: 30px;
+        height: 150px; 
+        width: 250px;
+        padding: 3px;
+        margin: 4px; 
+        background-color: pink;
+    }*/
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="main"></div>
-        <p>1</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div class="main">
+          <div class="flex">
+        <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere reprehenderit,
              laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
-        <div class="sidebar">
+            </div>
+            <div class="flex">
+              <p>2.  Recusandae sunt doloremque rem, ab natus, hic, 
+                commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi? 
+                Sapiente dolorum ullam, similique perspiciatis blanditiis,
+                 mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam 
+                 recusandae nisi obcaecati! Autem soluta numquam ab!</p>
+                  </div>
+                  <div class="flex">
+                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere reprehenderit,
+                         laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+                        </div>
+                        <div class="flex">
+                          <p>4.  Recusandae sunt doloremque rem, ab natus, hic, 
+                            commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi? 
+                            Sapiente dolorum ullam,
+                             similique perspiciatis blanditiis,
+                             mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati! Autem soluta numquam ab!</p>
+                              </div>
+             <div class="sidebar">
          <ul class="navigation">
            <li class="navigation-item"><a href="">Link</a></li>
          </ul>
+         <div class="footer">
+           &copy;Sheba Ayinzabyonna 2021;
+          </div>
+         </div>
         </div>
+      </body>
+      </html>
 
       <!-- <h2>Assignment 3</h2> 
      <div class="grid-item">
           <p>1</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere reprehenderit, laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, 
+            enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, 
+            ad deserunt nulla praesentium facere reprehenderit, 
+            laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
       </div>
       <div class="grid-item">
           <p>2</p>
@@ -71,7 +160,5 @@ margin: 0;
             <p>9</p>
             <p>Consequuntur numquam alias voluptatem aut nulla quasi error minima similique ducimus officiis iure, saepe debitis autem. Id sit ipsum perferendis rerum hic porro nihil repellat soluta saepe repudiandae, maxime quos, ad recusandae esse cupiditate similique accusamus consequatur amet debitis incidunt tenetur obcaecati libero neque tempore!</p>
             
-    </div> --!>
+     </div> --!
          
-</body>
-</html>
