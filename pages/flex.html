@@ -13,53 +13,56 @@
       background-image:linear-gradient(to top,chocolate,green);
       background-size:cover;
       background-repeat:no-repeat;
-      height:1000px;
+      height:800px;
     } 
       .container{
         display:grid;
         grid-template-columns: 80% 20%;
-        grid-template-rows: repeat(auto);       /* grid-template-rows: 80px auto 80px; */
+        /*grid-template-rows: repeat(auto); */      /* grid-template-rows: 80px auto 80px; */
        /* column-gap:10px;
-        row-gap: 15px;*/
+        row-gap: 15px;
        column-gap: 2px;
-        row-gap: 4px;
+        row-gap: 4px;*/
          /*padding:20px;
             margin: 0;
             display: flex;
            flex-flow: row-reverse wrap; 
-          justify-content: ;
-           align-items: flex-end;
-            align-content: center;*/
+          justify-content: ;*/
+          /* align-items: flex-end;
+           justify-content:space-evenly;
+            /*align-content: center;*/
       }
       .sidebar{
         display: flex;
         flex-direction: column;
-       /* justify-content:space-evenly;
-        flex-basis:2px;
-        background-color:chocolate green;
-        height: 250;*/
+       
+        /*flex-basis:2px;
+        background-color:chocolate green;*/
+        height: 600px;
       }
-     
+    .flex :hover{
+      box-shadow: 0 6px 4px 1px;
+    } 
     .flex{
+      /*display: flex;
+      justify-content: center;*/
       background:#fff;
       border-radius: 30px;
-            height: 200px;
-            width:300px;
-            padding: 13px;
-            margin:9px;
-            order: 3;
-            flex: none, 2, 3;
+            height: 170px;
+            width:200px;
+            padding: 10px;
+          margin:3px; 
+          /*  order: 3;
+            flex: none, 2, 3;*/
 
     }
-    .flex :hover{
-      box-shadow:  10px 10px 8px 10px #a3a2a2;
-    }
-    .item{
+    
+    /*.item{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 200px;
-    }
+    }*/
     .main{
         display: flex;
         flex-flow: wrap;
@@ -67,12 +70,14 @@
         align-content: center;
         justify-content: center;
     }
-    .a:hover{
+    
+    a:hover{
      background-color: black;
      color:orange;
     }
     .footer{
-      text-align: right;
+    display: flex;  
+    
     }
     h2{
       text-align: center;
@@ -93,80 +98,67 @@
         <div class="main">
           <div class="flex">
         <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere reprehenderit,
-             laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+             Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque.</p>
             </div>
             <div class="flex">
               <p>2. Recusandae sunt doloremque rem, ab natus, hic,
                 commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi?
-                Sapiente dolorum ullam, similique perspiciatis blanditiis,
-                mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam
-                recusandae nisi obcaecati! Autem soluta numquam ab!</p>
+                  </p>
             </div>
             <div class="flex">
               <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque
-                eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere
-                reprehenderit,
-                laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+                Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque.</p>
             </div>
             <div class="flex">
               <p>4. Recusandae sunt doloremque rem, ab natus, hic,
                 commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi?
-                Sapiente dolorum ullam,
-                similique perspiciatis blanditiis,
-                mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati!
-                Autem soluta numquam ab!</p>
+                 </p>
             </div>
             <div class="flex">
               <p>5. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque
-                eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere
-                reprehenderit,
-                laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+                eaque perspiciatis!</p>
             </div>
             <div class="flex">
               <p>6. Recusandae sunt doloremque rem, ab natus, hic,
                 commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi?
                 Sapiente dolorum ullam,
-                similique perspiciatis blanditiis,
-                mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati!
-                Autem soluta numquam ab!</p>
+                </p>
             </div>
             <div class="flex">
               <p>7. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque
-                eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere
-                reprehenderit,
-                laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
+                eaque perspiciatis!</p>
             </div>
             <div class="flex">
               <p>8. Recusandae sunt doloremque rem, ab natus, hic,
                 commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi?
-                Sapiente dolorum ullam,
-                similique perspiciatis blanditiis,
-                mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati!
-                Autem soluta numquam ab!</p>
+                </p>
             </div>
             <div class="flex">
               <p>9. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, enim cumque
-                eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, ad deserunt nulla praesentium facere
-                reprehenderit,
-                laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
-            </div>
-    <div class="sidebar">
-         <ul class="item">
-           <li class="navigation-item"><a href="">Link</a></li>
-           <li class="navigation-item"><a href="">Link</a></li>
-           <li class="navigation-item"><a href="">Link</a></li>
-           <li class="navigation-item"><a href="">Link</a></li>
-           <li class="navigation-item"><a href="">Link</a></li>
-           
-         </ul>
-        </div>
-         <div class="footer">
-           &copy;Sheba Ayinzabyonna 2021;
-          </div>
+               </p>
+                </div>
+                </div>
+           <div class="sidebar">
+                  <ul class="item">
+                    <li class="navigation-item"><a href="">Link</a></li>
+                    <li class="navigation-item"><a href="">Link</a></li>
+                    <li class="navigation-item"><a href="">Link</a></li>
+                    <li class="navigation-item"><a href="">Link</a></li>
+                    <li class="navigation-item"><a href="">Link</a></li>
+              
+                  </ul>
+                 </div>
+
+
+    </div>
+                
+   
+        <div class="footer">
+          &copy;Sheba Ayinzabyonna 2021
+         </div>  
+       
       </body>
       </html>
