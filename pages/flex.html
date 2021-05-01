@@ -17,12 +17,12 @@
     } 
       .container{
         display:grid;
-        grid-template-columns: 100px 50px 100px;
-        /*grid-template-rows: repeat(auto);*/
-        grid-template-rows: 80px auto 80px;
-        column-gap:10px;
-        row-gap: 15px;
-        
+        grid-template-columns: 80% 20%;
+        grid-template-rows: repeat(auto);       /* grid-template-rows: 80px auto 80px; */
+       /* column-gap:10px;
+        row-gap: 15px;*/
+       column-gap: 2px;
+        row-gap: 4px;
          /*padding:20px;
             margin: 0;
             display: flex;
@@ -31,13 +31,13 @@
            align-items: flex-end;
             align-content: center;*/
       }
-      .navigation{
+      .sidebar{
         display: flex;
         flex-direction: column;
-        justify-content:space-evenly;
+       /* justify-content:space-evenly;
         flex-basis:2px;
-        background-color: black;
-        height: 250;
+        background-color:chocolate green;
+        height: 250;*/
       }
      
     .flex{
@@ -51,19 +51,31 @@
             flex: none, 2, 3;
 
     }
-    .navigation-item{
+    .flex :hover{
+      box-shadow:  10px 10px 8px 10px #a3a2a2;
+    }
+    .item{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 200px;
     }
-    /*.main{
+    .main{
         display: flex;
-        /* background-color: rgba(252, 88, 29, 0.904);
         flex-flow: wrap;
         align-items: center;
         align-content: center;
         justify-content: center;
+    }
+    .a:hover{
+     background-color: black;
+     color:orange;
+    }
+    .footer{
+      text-align: right;
+    }
+    h2{
+      text-align: center;
     }
     /*.flex{
         border-radius: 30px;
@@ -76,6 +88,7 @@
     </style>
 </head>
 <body>
+  <h2>ASSIGNMENT</h2>
     <div class="container">
         <div class="main">
           <div class="flex">
@@ -142,63 +155,18 @@
                 reprehenderit,
                 laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
             </div>
-             <div class="sidebar">
-         <ul class="navigation">
+    <div class="sidebar">
+         <ul class="item">
            <li class="navigation-item"><a href="">Link</a></li>
+           <li class="navigation-item"><a href="">Link</a></li>
+           <li class="navigation-item"><a href="">Link</a></li>
+           <li class="navigation-item"><a href="">Link</a></li>
+           <li class="navigation-item"><a href="">Link</a></li>
+           
          </ul>
+        </div>
          <div class="footer">
            &copy;Sheba Ayinzabyonna 2021;
           </div>
-         </div>
-        </div>
       </body>
       </html>
-
-      <!-- <h2>Assignment 3</h2> 
-     <div class="grid-item">
-          <p>1</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Animi consectetur blanditiis commodi ducimus voluptatibus sed, nesciunt accusamus eum neque, incidunt, 
-            enim cumque eaque perspiciatis! Non magni dolor, perspiciatis cumque distinctio, 
-            ad deserunt nulla praesentium facere reprehenderit, 
-            laudantium sit doloremque excepturi architecto repudiandae odit aperiam recusandae!</p>
-      </div>
-      <div class="grid-item">
-          <p>2</p>
-          <p>
-          Recusandae sunt doloremque rem, ab natus, hic, commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi? Sapiente dolorum ullam, similique perspiciatis blanditiis, mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati! Autem soluta numquam ab!</p>
-        </div>
-      <div class="grid-item">
-          <p>3</p>
-          <p>Consequuntur numquam alias voluptatem aut nulla quasi error minima similique ducimus officiis iure, saepe debitis autem. Id sit ipsum perferendis rerum hic porro nihil repellat soluta saepe repudiandae, maxime quos, ad recusandae esse cupiditate similique accusamus consequatur amet debitis incidunt tenetur obcaecati libero neque tempore!</p>
-          
-        </div>
-      <div class="grid-item">
-          <p>4</p>
-          <p>Non soluta unde ipsam cum, sed dolorum impedit in, reiciendis voluptate nostrum rem voluptatibus et eveniet alias ex a quam eius, tenetur qui? Doloremque ducimus, illo consectetur, animi repellat ratione omnis debitis fugiat architecto laborum cum et velit, dolore quas nisi impedit. Deserunt, labore quis.
-          </p>
-        </div>
-      <div class="grid-item">
-          <p>5</p>
-          <p>
-            Aperiam aliquam, architecto esse modi temporibus pariatur, eos vel recusandae magnam, illo nemo harum rem. Eius, ex, et corporis magnam impedit assumenda, dicta ducimus ratione debitis blanditiis expedita deserunt quae. Odit voluptatibus labore eveniet voluptate distinctio quod, iste saepe, nihil soluta quas commodi consequuntur sed?</p>
-      </div>
-      <div class="grid-item">
-          <p>6</p>
-          <p>Recusandae sunt doloremque rem, ab natus, hic, commodi optio voluptas alias nam nisi corporis perspiciatis velit accusamus dicta quos aliquid eligendi? Sapiente dolorum ullam, similique perspiciatis blanditiis, mollitia repudiandae ut adipisci expedita labore aspernatur enim inventore corporis nam recusandae nisi obcaecati! Autem soluta numquam ab!</p>
-        </div>
-      <div class="grid-item">
-          <p>7</p>
-          <p>Quis qui at cupiditate enim perferendis tenetur non praesentium molestiae ipsa fuga delectus dolor repellat adipisci, quasi ea asperiores doloremque fugit repellendus. Aliquid provident odit quo nemo neque culpa veritatis cum hic, repellendus facere ipsam nisi placeat tempore eius similique nam maxime dicta? Ipsam, unde?</p>
-      </div>
-      <div class="grid-item">
-          <p>8</p>
-          <p>Blanditiis quia aperiam saepe a, dignissimos nesciunt amet omnis tenetur, quod exercitationem quam vitae. Perspiciatis hic excepturi facilis, ad perferendis modi porro voluptas? Dicta similique, officiis consectetur error eius cumque illo voluptatum quasi illum deserunt soluta dignissimos id dolorum sit eveniet voluptate impedit asperiores repellat.
-          </p>
-        </div>
-     <div class="grid-item">
-            <p>9</p>
-            <p>Consequuntur numquam alias voluptatem aut nulla quasi error minima similique ducimus officiis iure, saepe debitis autem. Id sit ipsum perferendis rerum hic porro nihil repellat soluta saepe repudiandae, maxime quos, ad recusandae esse cupiditate similique accusamus consequatur amet debitis incidunt tenetur obcaecati libero neque tempore!</p>
-            
-     </div> --!
-         
